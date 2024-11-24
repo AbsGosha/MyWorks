@@ -34,7 +34,8 @@ int main()
 	int discriminant =  pow(b, 2) - 4 * a * c;
 	cout << "Дискриминант равен: " << discriminant;
 	if (discriminant < 0) {
-		cout << "Нет действительных корней";
+		cout << "\nНет действительных корней";
+		return 0;
 	}
 	cout << endl;
 	int korDis = sqrt(discriminant);
